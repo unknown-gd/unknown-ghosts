@@ -1,0 +1,35 @@
+{
+    "ghosts": [
+        {
+            "origin": "[-3285 -1540 -144]",
+            "angles": "{0 180 0}",
+            "max_distance": 3072,
+            "group": "ukdev"
+        },
+        {
+            "origin": "[-3080 -1080 -96]",
+            "angles": "{0 -45 0}",
+            "max_distance": 512,
+            "bodygroups": "010",
+            "group": "ukdev",
+            "act": 392
+        },
+        {
+            "origin": "[980 -1669 624]",
+            "modelpath": "models/player/mothica.mdl",
+            "angles": "{0 169 0}",
+            "max_distance": 4096,
+            "group": "ukdev",
+            "chance": 50
+        }
+    ],
+    "groups": {
+        "ukdev": {
+            "modelpath": "models/player/mothica.mdl",
+            "player_color": "[0.4 0.35 0.55]",
+            "wsid": "3154082332",
+            "spectate": true,
+            "chance": 25
+        }
+    }
+}
