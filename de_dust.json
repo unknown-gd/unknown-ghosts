@@ -1,0 +1,27 @@
+{
+    "ghosts": [
+        {
+            "origin": "[-760 -280 158]",
+            "angles": "{0 90 0}",
+            "max_distance": 2048,
+            "group": "ukdev",
+            "act": 392
+        },
+        {
+            "origin": "[-1225 1945 -128]",
+            "angles": "{0 45 0}",
+            "max_distance": 512,
+            "group": "ukdev",
+            "act": 1970
+        }
+
+    ],
+    "groups": {
+        "ukdev": {
+            "modelpath": "models/player/mothica.mdl",
+            "player_color": "[0.4 0.35 0.55]",
+            "wsid": "3154082332",
+            "spectate": true
+        }
+    }
+}
