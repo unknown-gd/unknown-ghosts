@@ -1,0 +1,81 @@
+{
+    "ghosts": [
+        {
+            "groups": ["ukdev", "eagle"],
+            "origin": "[-1490 560 347]",
+            "angles": "{0 120 0}"
+        },
+        {
+            "groups": ["ukdev", "eagle"],
+            "origin": "[-1500 560 347]",
+            "angles": "{0 60 0}"
+        },
+        {
+            "groups": ["ukdev", "eagle"],
+            "origin": "[-1580 560 347]",
+            "angles": "{0 120 0}"
+        },
+        {
+            "groups": ["ukdev", "eagle"],
+            "origin": "[-1590 560 347]",
+            "angles": "{0 60 0}"
+        },
+        {
+            "origin": "[-288.2 1241 240]",
+            "sequence": "Lean_Left",
+            "angles": "{0 -100 0}",
+            "max_distance": 1024,
+            "bodygroups": "011",
+            "spectate": false,
+            "group": "ukdev",
+            "chance": 15,
+            "scale": 0.1
+        },
+        {
+            "origin": "[-700 480 480]",
+            "sequence": "Lean_Left",
+            "angles": "{0 -120 0}",
+            "max_distance": 2048,
+            "group": "ukdev"
+        },
+        {
+            "origin": "[-2590 -2355 639]",
+            "sequence": "pose_ducking_02",
+            "angles": "{0 60 0}",
+            "bodygroups": "011",
+            "max_distance": -1,
+            "spectate": false,
+            "group": "ukdev",
+            "scale": 0.25,
+            "chance": 10
+        },
+        {
+            "origin": "[-2294 -2150 513]",
+            "sequence": "gesture_wave",
+        	"angles": "{0 -100 0}",
+            "bodygroups": "011",
+            "max_distance": -1,
+            "cycle_start": 0.3,
+            "spectate": false,
+            "cycle_end": 0.65,
+            "group": "ukdev",
+            "scale": 0.05,
+            "chance": 10
+        }
+    ],
+    "groups": {
+        "eagle": {
+            "chance": 25,
+            "group": "ukdev",
+            "sequence": "sit",
+            "max_distance": 1024,
+            "name": "eagle:sitting"
+        },
+        "ukdev": {
+            "modelpath": "models/player/mothica.mdl",
+            "player_color": "[0.4 0.35 0.55]",
+            "wsid": "3154082332",
+            "spectate": true
+        }
+    }
+}
