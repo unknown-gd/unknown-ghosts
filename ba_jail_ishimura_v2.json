@@ -1,0 +1,24 @@
+{
+    "ghosts": [
+        {
+            "origin": "[2950 6448 512]",
+            "angles": "{0 120 0}",
+            "group": "ukdev",
+            "chance": 50
+        },
+        {
+            "origin": "[3955 4730 1412]",
+            "angles": "{45 30 0}",
+            "group": "ukdev",
+            "act": 1786
+        }
+    ],
+    "groups": {
+        "ukdev": {
+            "modelpath": "models/player/mothica.mdl",
+            "player_color": "[0.4 0.35 0.55]",
+            "wsid": "3154082332",
+            "spectate": true
+        }
+    }
+}
