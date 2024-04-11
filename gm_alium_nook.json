@@ -18,15 +18,16 @@
         {
             "groups": ["ukdev", "eagle"],
             "origin": "[-1590 560 347]",
-            "angles": "{0 60 0}"
+            "angles": "{0 60 0}",
+            "chance": true
         },
         {
             "origin": "[-288.2 1241 240]",
             "sequence": "Lean_Left",
             "angles": "{0 -100 0}",
             "max_distance": 1024,
-            "bodygroups": "011",
-            "spectate": false,
+            "bodygroups": "0111",
+            "spectate": true,
             "group": "ukdev",
             "chance": 15,
             "scale": 0.1
@@ -39,15 +40,14 @@
             "group": "ukdev"
         },
         {
-            "origin": "[-2590 -2355 639]",
+            "origin": "[-2583 -2355 639.25]",
             "sequence": "pose_ducking_02",
-            "angles": "{0 60 0}",
+            "angles": "{15 60 0}",
             "bodygroups": "011",
             "max_distance": -1,
             "spectate": false,
             "group": "ukdev",
-            "scale": 0.25,
-            "chance": 10
+            "scale": 0.05
         },
         {
             "origin": "[-2294 -2150 513]",
