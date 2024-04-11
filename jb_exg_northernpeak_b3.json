@@ -1,0 +1,14 @@
+{
+    "ghosts": [
+        {
+            "modelpath": "models/player/mothica.mdl",
+            "player_color": "[0.4 0.35 0.55]",
+            "origin": "[-2045 4870 1644]",
+            "angles": "{0 -140 0}",
+            "max_distance": 1024,
+            "wsid": "3154082332",
+            "spectate": true,
+            "act": 392
+        }
+    ]
+}
