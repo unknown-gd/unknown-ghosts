@@ -4,8 +4,8 @@
             "origin": "[1255 468 48]",
             "angles": "{0 -110 0}",
             "max_distance": 512,
-            "group": "ukdev",
-            "act": 1970
+            "sequence": "sit",
+            "group": "ukdev"
         },
         {
             "origin": "[2080 1385 -144]",
