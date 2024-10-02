@@ -17,6 +17,16 @@
         },
         {
             "groups": ["ukdev", "eagle"],
+            "origin": "[-1632 540 427]",
+            "angles": "{0 60 0}"
+        },
+        {
+            "groups": ["ukdev", "eagle"],
+            "origin": "[-1305 1440 430]",
+            "angles": "{180 45 0}"
+        },
+        {
+            "groups": ["ukdev", "eagle"],
             "origin": "[-1590 560 347]",
             "angles": "{0 60 0}",
             "chance": true
